@@ -19,6 +19,7 @@ LaTeX-based PDF generator — distribution `entirius-py-pdf-generator`, import `
 - Git flow: `master` (production) + `develop` (integration); changes land via PR; semver tag on `master`.
 - Never rename the import package `pdf_generator` — it is a public API contract.
 - Default: do not commit — git is the user's call.
+- No AI attribution in commits or PR descriptions.
 
 ## Architecture
 
